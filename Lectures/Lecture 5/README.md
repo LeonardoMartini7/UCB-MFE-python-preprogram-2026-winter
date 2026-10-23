@@ -16,8 +16,12 @@ Keep these four files together so the guide's links work. Download the HTML file
 
 ## January cohort source materials
 
+- [Original January Lesson 5 deck shown during the October lessons](january-2026-reference/UCB_MFE_January_2026_Lesson_5.pptx): fresh October 22 export, preserving the original slides.
+- [Original January Lesson 5 Google Slides](https://docs.google.com/presentation/d/1FHou4eBxzs5tR7WrhwNt9nwrgdjVmLQQ9CbrRGse8ZA/edit).
 - **Slides**: `UCB_MFE_2026_Lesson_5_Updated.pptx`
 - **Interactive Notebook**: `advanced_python_part1_interactive.ipynb`
+
+The original Google deck and the existing updated PowerPoint are retained as distinct reference versions. Monday's October teaching package remains in `monday-2026-10-19`. See [Thursday's Lesson 6 materials](../Lecture%206/README.md) for the continuation and the prior-course concurrency/parallelism slides used in class.
 
 ### Topics in the January materials
 
