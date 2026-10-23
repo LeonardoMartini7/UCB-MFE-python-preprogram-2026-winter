@@ -10,8 +10,8 @@ Fall 2026: October 5-November 5. All times are Pacific Time (PT).
 | Thursday | 10/8/2026  | 9am - 12pm  | Yang     | [Data Analysis I & II: pandas, portfolio analysis](Lectures/Lecture%202/readme.md) |
 | Monday   | 10/12/2026 | 9am - 12pm  | Aneesh   | [LLM Classification & Agent Evaluation](Lectures/Lecture%203/readme.md) |
 | Thursday | 10/15/2026 | 9am - 12pm  | Yang     | [Data Analysis III: visualization/cleaning, SQL, risk reports](Lectures/Lecture%204/readme.md) |
-| Monday   | 10/19/2026 | 9am - 12pm  | Aneesh   | Advanced Python I: OOP, environments, regex |
-| Thursday | 10/22/2026 | 9am - 12pm  | Aneesh   | Advanced Python II: async, functional programming |
+| Monday   | 10/19/2026 | 9am - 12pm  | Aneesh   | [Advanced Python I: Python, memory and systems](Lectures/Lecture%205/README.md) |
+| Thursday | 10/22/2026 | 9am - 12pm  | Aneesh   | [Advanced Python II: algorithms, async and LLM memory](Lectures/Lecture%206/README.md) |
 | Monday   | 10/26/2026 | 9am - 12pm  | Yang     | Modeling I: scikit-learn basics |
 | Thursday | 10/29/2026 | 9am - 12pm  | Yang     | Modeling II: scikit-learn advanced |
 | Monday   | 11/2/2026  | 9am - 12pm  | Aneesh   | Productionization: testing, Docker, CI |
@@ -85,7 +85,7 @@ HW 1 starter files and the submission folder layout are in [Homeworks/HW1](Homew
 - Worked examples use different inputs or questions from the final exercises. Exercise prompts, starter cells, and feedback stay together at the end; the lesson runs independently of student answers.
 - Lecture 4's default report batch deliberately includes one invalid ticker: three reports succeed, one failure is recorded, and the comparison uses successful outputs only.
 - Lecture 4 requires the bCourses database at `Lectures/Lecture 4/data/data.db`.
-- Lecture 6's HTTP examples require internet access. Its multiprocessing example uses the adjacent `lecture6_workers.py` module.
+- Lecture 6's October 22 prepared notebook uses only the standard library, simulated I/O and no external services; its cell outputs are cleared for live teaching. The older reference notebook's HTTP examples require internet access, and its multiprocessing example uses the adjacent `lecture6_workers.py` module.
 - Lecture 8 uses its built-in demo if the separate homework database at `Lectures/Lecture 8/data/data.db` is absent.
 - Database files, local credentials, and generated reports are not tracked.
 - Verify the reorganized modules with `uv run python scripts/validate_data_analysis.py` (or add `--core-only` for the six live notebooks). The validator uses fresh kernels and a temporary database backup.
